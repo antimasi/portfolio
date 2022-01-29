@@ -57,6 +57,17 @@ main {
   justify-content: center;
   align-items: center;
 }
+@media (max-width: 480px) {
+  .card-icon {
+    display: none;
+  } 
+}
+.about-card{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
 
 .title-container {
   min-height:500px;
